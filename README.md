@@ -1,36 +1,81 @@
-# Привет - я Нурдаулет 👋
+<p align="center">
+  <svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="nurd_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#4f46e5"/>
+        <stop offset="100%" stop-color="#06b6d4"/>
+      </linearGradient>
+      <filter id="nurd_glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <linearGradient id="nurd_anim_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%">
+          <animate attributeName="stop-color" values="#4f46e5; #0ea5e9; #4f46e5" dur="6s" repeatCount="indefinite"/>
+        </stop>
+        <stop offset="100%">
+          <animate attributeName="stop-color" values="#0ea5e9; #4f46e5; #0ea5e9" dur="6s" repeatCount="indefinite"/>
+        </stop>
+      </linearGradient>
+    </defs>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+          font-family="Segoe UI, Inter, sans-serif"
+          font-size="58" font-weight="700"
+          fill="url(#nurd_anim_grad)"
+          filter="url(#nurd_glow)">
+    </text>
+  </svg>
+</p>
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=06B6D4&center=true&vCenter=true&width=520&lines=Web+%2F+Mobile+Developer;AI+%26+ML+Enthusiast;Fast+Problem+Solver;Building+Smart+Products+%26+MVPs" />
+</p>
+
+
+
+# Привет - я Нурдаулет 
 
 **Коротко обо мне**  
-Я - веб/мобильный разработчик и энтузиаст в области ИИ. Люблю быстро решать задачи, учиться новому и строить полезные проекты: от простых сайтов до приложений с нейросетями. Готов к стажировкам и командной работе.
+Я - разработчик, который сочетает **скорость, дизайн и ИИ**.  
+Делаю интерфейсы, сайты, API, мобильные приложения и интеграции с нейросетями.  
+Строю MVP-продукты, прототипы и реальные решения.
 
 ---
 
-## 🔧 Текущие навыки
+<h2>Текущие навыки</h2>
 
-### Языки программирования
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<h3>Языки программирования</h3>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js" height="40"/>
+  <img src="https://skillicons.dev/icons?i=ts" height="40"/>
+  <img src="https://skillicons.dev/icons?i=html" height="40"/>
+  <img src="https://skillicons.dev/icons?i=css" height="40"/>
+  <img src="https://skillicons.dev/icons?i=php" height="40"/>
+  <img src="https://skillicons.dev/icons?i=python" height="40"/>
+</p>
 
-### Фреймворки / Библиотеки
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-F55247?style=for-the-badge&logo=laravel&logoColor=white)
+<h3>Фреймворки / Библиотеки</h3>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react" height="40"/>
+  <img src="https://skillicons.dev/icons?i=flask" height="40"/>
+  <img src="https://skillicons.dev/icons?i=django" height="40"/>
+  <img src="https://skillicons.dev/icons?i=laravel" height="40"/>
+</p>
 
-### Базы данных
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### ИИ / API
-![Gemini](https://img.shields.io/badge/Gemini-0F172A?style=for-the-badge)
+<h3>Базы данных</h3>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql" height="40"/>
+  <img src="https://skillicons.dev/icons?i=firebase" height="40"/>
+</p>
 
 ---
 
-## 🚀 Про что люблю делать проекты
+## Про что люблю делать проекты
 - Веб-приложения с чистым UI и API (frontend + backend).  
 - Мобильные приложения на React Native.  
 - Быстрая интеграция ИИ (через API: Gemini и др.) и прототипы с нейросетями.  
@@ -38,7 +83,7 @@
 
 ---
 
-## 📫 Контакты
+## Контакты
 <!-- Замените ссылки на свои -->
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/@zzznurd)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:myktybajnurik@gmail.com)
